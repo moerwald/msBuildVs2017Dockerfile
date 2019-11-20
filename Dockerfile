@@ -1,6 +1,6 @@
 # Copyright (C) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT license. See LICENSE.txt in the project root for license information.
-FROM microsoft/windowsservercore:10.0.14393.1715
+FROM mcr.microsoft.com/windows/servercore:ltsc2019
 SHELL ["powershell.exe", "-ExecutionPolicy", "Bypass", "-Command"]
 
 ENV TEST_CONTAINER=1 \
